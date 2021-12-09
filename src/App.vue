@@ -1,18 +1,20 @@
 <script setup>
-const items = [];
+import { ref } from "vue";
+
+const items = ref([]);
 
 function add() {
   console.log("add");
 
   const todoText = document.getElementById("todo-input").value;
 
-  items.push(todoText);
+  items.value.push(todoText);
 }
 
 function remove(itemsIndex) {
   console.log("remove");
 
-  items.splice(itemsIndex, 1);
+  items.value.splice(itemsIndex, 1);
 }
 </script>
 
