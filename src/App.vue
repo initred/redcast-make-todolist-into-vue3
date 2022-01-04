@@ -1,21 +1,31 @@
-<script setup>
-import { ref } from "vue";
+<script>
+import { defineComponent, ref } from "vue";
 
-const items = ref([]);
+export default defineComponent({
+  setup() {
+    const items = ref([]);
 
-function add() {
-  console.log("add");
+    function add() {
+      console.log("add");
 
-  const todoText = document.getElementById("todo-input").value;
+      const todoText = document.getElementById("todo-input").value;
 
-  items.value.push(todoText);
-}
+      items.value.push(todoText);
+    }
 
-function remove(itemsIndex) {
-  console.log("remove");
+    function remove(itemsIndex) {
+      console.log("remove");
 
-  items.value.splice(itemsIndex, 1);
-}
+      items.value.splice(itemsIndex, 1);
+    }
+
+    return {
+      items,
+      add,
+      remove,
+    }
+  }
+})
 </script>
 
 <template>
