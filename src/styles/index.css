@@ -1,1 +1,7 @@
-@import './tailwindcss.css'
+@import './tailwindcss.css';
+
+html,
+body,
+#app {
+  @apply w-full h-full antialiased;
+}
