@@ -1,7 +1,26 @@
-# Vue 3 + Vite
+# Redcast Make Vue3 TodoList Lecture
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+How to install
 
-## Recommended IDE Setup
+Require node.js & npm
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+```shell
+npm install
+```
+```shell
+npm run dev
+```
+
+해당 레포지토리는 Vue 강의를 하기 위해 만들어졌습니다.
+
+Git Tag를 참조해 주세요.
+
+목차
+ 1. 컴포넌트 작성하기
+ 2. ref 사용하기
+ 3. Tailwindcss v3 설치
+ 4. Vue Syntax Sugar 구문에서 일반 구문으로 바꾸기
+ 5. Tailwindcss를 이용한 css 리팩토링
+ 6. Tailwindcss Theme에 Font 추가하기
+ 7. Code 리팩토링 및 localStorage 사용
+ 8. README.md 작성하기
