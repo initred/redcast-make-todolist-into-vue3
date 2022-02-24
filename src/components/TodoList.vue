@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-xl max-h-96 w-full h-full">
-    <div class="bg-gray-50 border border-gray-200 rounded shadow-lg divide-y divide-gray-200">
+    <div class="bg-gray-900 border border-gray-200 rounded shadow-lg divide-y divide-gray-200">
       <div class="bg-indigo-500 text-white p-4 rounded-tl rounded-tr">
         <h1 class="text-xl italic">Todo List</h1>
       </div>
